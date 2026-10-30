@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Projects Pie Chart",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "DSC 106 Lab 5. A D3 pie chart of my projects per year that you can click to filter."
+  },
+  {
+    "title": "Projects from JSON",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "DSC 106 Lab 4. Loads these projects from a JSON file and shows my GitHub stats."
+  },
+  {
+    "title": "Dark Mode and Auto Nav",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "DSC 106 Lab 3. Used JavaScript to build the menu and add a light/dark switch."
+  },
+  {
+    "title": "Styling with CSS",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "DSC 106 Lab 2. Added layout and styling to this site with flexbox and grid."
+  },
+  {
+    "title": "Portfolio Website",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "DSC 106 Lab 1. Built this site with plain HTML and put it on GitHub Pages."
+  },
+  {
+    "title": "Security Findings Dashboard",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "IBM internship. Built parts of a React and TypeScript dashboard for security findings."
+  },
+  {
+    "title": "Security Job Scheduler",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "IBM internship. Built a job scheduler with PostgreSQL and pg-boss to process security data."
+  },
+  {
+    "title": "AWS Cost Finder",
+    "year": "2025",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Ally internship. An AI tool that found unused AWS resources, saving about $70K a year."
+  },
+  {
+    "title": "Cloud Cost Dashboard",
+    "year": "2025",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Ally internship. A Grafana dashboard that tracks cloud cost and usage."
+  },
+  {
+    "title": "AWS Data Pipeline",
+    "year": "2023",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Startup internship. Moved data from local devices to the cloud with EC2, S3, and Lambda."
+  },
+  {
+    "title": "Container Storage Tool",
+    "year": "2023",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Startup internship. Compressed and encrypted containers, cutting storage costs by 12%."
+  },
+  {
+    "title": "Clothing Classifier",
+    "year": "2022",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "GSPANN internship. A computer vision model that sorts clothing by color and style (92% accuracy)."
+  }
+]
