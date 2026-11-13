@@ -18,8 +18,8 @@ let arcGenerator = d3.arc().innerRadius(0).outerRadius(50);
 
 function filterByQuery(list) {
   return list.filter((project) => {
-    // search every field except the image link
-    let { image, ...rest } = project;
+    // search every field except the links
+    let { image, url, ...rest } = project;
     let values = Object.values(rest).join('\n').toLowerCase();
     return values.includes(query.toLowerCase());
   });

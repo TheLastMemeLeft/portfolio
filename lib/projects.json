@@ -1,5 +1,12 @@
 [
   {
+    "title": "Bikewatching",
+    "year": "2026",
+    "image": "images/bikewatching.jpg",
+    "url": "https://thelastmemeleft.github.io/bikewatching/",
+    "description": "DSC 106 Lab 7. A Mapbox map of Bluebikes traffic in Boston with a time-of-day slider."
+  },
+  {
     "title": "Projects Pie Chart",
     "year": "2026",
     "image": "https://dsc106.com/labs/lab02/images/empty.svg",

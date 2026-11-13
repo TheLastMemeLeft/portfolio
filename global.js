@@ -119,10 +119,18 @@ export function renderProjects(projects, containerElement, headingLevel = 'h2') 
   }
 
   for (let project of projects) {
+    // local images are stored from the site root
+    let image = project.image.startsWith('http') ? project.image : BASE_PATH + project.image;
+
+    // link the title if the project has a url
+    let title = project.url
+      ? `<a href="${project.url}" target="_blank">${project.title}</a>`
+      : project.title;
+
     const article = document.createElement('article');
     article.innerHTML = `
-      <${headingLevel}>${project.title}</${headingLevel}>
-      <img src="${project.image}" alt="${project.title}">
+      <${headingLevel}>${title}</${headingLevel}>
+      <img src="${image}" alt="${project.title}">
       <div>
         <p>${project.description}</p>
         <p class="year">${project.year}</p>
