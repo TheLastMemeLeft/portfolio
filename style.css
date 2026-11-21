@@ -279,6 +279,11 @@ circle {
   transition: 200ms;
   transform-origin: center;
   transform-box: fill-box;
+
+  /* new circles grow in from nothing */
+  @starting-style {
+    r: 0;
+  }
 }
 
 circle:hover {
@@ -354,5 +359,111 @@ dl.info[hidden]:not(:hover, :focus-within) {
     dd {
       font-size: 130%;
     }
+  }
+}
+
+/* bigger axis labels, the chart is drawn at half size now */
+#chart svg text {
+  font-size: 22px;
+}
+
+/* Lab 8: time filter */
+.time-filter {
+  display: flex;
+  align-items: baseline;
+  gap: 1em;
+  flex-wrap: wrap;
+
+  input {
+    flex: 1;
+    min-width: 10em;
+  }
+
+  time {
+    margin-left: auto;
+    color: color-mix(in oklch, canvastext, canvas 35%);
+  }
+}
+
+/* Lab 8: scrollytelling */
+#scrolly-1 {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+
+  > * {
+    flex: 1;
+  }
+}
+
+#scatter-story {
+  position: relative;
+}
+
+#scatter-plot {
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: auto;
+  height: 50vh;
+}
+
+.step {
+  padding-block: 2em 40vh;
+}
+
+/* Lab 8: file unit visualization */
+#files {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 0.5em 0;
+
+  > div {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: subgrid;
+  }
+
+  dt {
+    grid-column: 1;
+    overflow-wrap: anywhere;
+
+    small {
+      display: block;
+      font-size: 75%;
+      opacity: 0.6;
+    }
+  }
+
+  dd {
+    grid-column: 2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    align-content: start;
+    gap: 0.15em;
+    padding-top: 0.6em;
+    margin-left: 0;
+  }
+}
+
+.loc {
+  display: flex;
+  width: 0.5em;
+  aspect-ratio: 1;
+  background: var(--color);
+  border-radius: 50%;
+}
+
+#file-legend {
+  display: flex;
+  gap: 1.5em;
+  list-style: none;
+  padding: 0;
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
   }
 }
